@@ -1,46 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Scratch Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Life Outside School | Lexington Bowman</title>
+
+    <link rel="stylesheet" href="scratch.css">
 </head>
 
-<body style="background-color: lightblue;">
+<body>
 
-<h1 id="top">My Hobby: Gaming</h1>
+<a id="top"></a>
 
-<a href="#bottom">Jump to Bottom</a>
+<!-- HEADER -->
+<div class="header">
+    <h1>Life Outside of School</h1>
+    <p>Cars • Gaming • Music • Travel • Life</p>
+</div>
 
-<h2>My Favorite Games</h2>
+<!-- NAV -->
+<div class="nav">
+    <a href="#cars">Cars</a>
+    <a href="#gaming">Gaming</a>
+    <a href="#music">Music</a>
+    <a href="#travel">Travel</a>
+    <a href="index.html">Home</a>
+    <a href="app.html">Web App</a>
+</div>
 
-<ol>
-    <li>FPS Games
-        <ul>
-            <li>Call of Duty</li>
-            <li>Valorant</li>
-        </ul>
-    </li>
-    <li>RPG Games</li>
-</ol>
+<!-- MAIN LIST (REQUIRED NESTED LIST) -->
+<div class="section">
+    <h2>My Interests</h2>
 
-<img src="https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg" width="300">
+    <ol>
+        <li>Cars
+            <ul>
+                <li>Porsche 944</li>
+                <li>90s JDM Cars</li>
+                <li>Off-road vehicles</li>
+            </ul>
+        </li>
 
-<h2>YouTube Video</h2>
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/dQw4w9WgXcQ">
-</iframe>
+        <li>Music
+            <ul>
+                <li>All Time Low</li>
+                <li>My Chemical Romance</li>
+                <li>Blink-182</li>
+                <li>Yellowcard</li>
+            </ul>
+        </li>
 
-<h2>Tableau Graph</h2>
-<iframe src="https://public.tableau.com/views/RegionalSampleWorkbook/Storms"
-width="600" height="400"></iframe>
+        <li>Gaming
+            <ul>
+                <li>Elden Ring</li>
+                <li>Baldur’s Gate 3</li>
+                <li>Minecraft</li>
+                <li>Terraria</li>
+            </ul>
+        </li>
 
-<br><br>
+        <li>Travel
+            <ul>
+                <li>Japan (want to visit)</li>
+                <li>Mexico City (want to visit)</li>
+                <li>Chile (mission)</li>
+                <li>Caribbean (DR, Bahamas)</li>
+            </ul>
+        </li>
+    </ol>
+</div>
 
-<a href="index.html">Back to Home</a>
-<a href="app.html">Go to Web App</a>
+<!-- CARS SECTION -->
+<div class="section" id="cars">
+    <h2>Cars</h2>
 
-<h3 id="bottom">Bottom of Page</h3>
-<a href="#top">Back to Top</a>
+    <p>I’ve always liked older performance cars and off-road builds.</p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Porsche_944_S2_Coupe.jpg" width="400">
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Toyota_Supra_Mk3.jpg" width="400">
+</div>
+
+<!-- GAMING SECTION -->
+<div class="section" id="gaming">
+    <h2>Gaming</h2>
+
+    <p>I enjoy immersive games and building my own PC setups.</p>
+
+    <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/K_03kFqWfqs"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!-- MUSIC SECTION -->
+<div class="section" id="music">
+    <h2>Music</h2>
+
+    <p>I play guitar and am part of a real band. I listen to a lot of pop-punk and rock.</p>
+
+    <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/3C0g5YfR5b4"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!-- TRAVEL + TABLEAU -->
+<div class="section" id="travel">
+    <h2>Travel</h2>
+
+    <p>I’ve been to Chile, the Dominican Republic, Bahamas, and across the U.S.
+       I want to visit Japan and Mexico City next.</p>
+
+    <!-- TABLEAU EMBED (REPLACE THIS) -->
+    <div class="tableau">
+        <p><b>Tableau Visualization (replace embed code here)</b></p>
+
+        <!-- Paste Tableau embed code below -->
+        <iframe src="YOUR_TABLEAU_LINK_HERE" width="800" height="600"></iframe>
+    </div>
+</div>
+
+<!-- BACK TO TOP -->
+<div class="section">
+    <a href="#top">Back to Top</a>
+</div>
 
 </body>
 </html>
