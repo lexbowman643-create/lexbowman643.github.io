@@ -10,11 +10,32 @@
             background-color: #111;
             color: white;
             text-align: center;
-            padding: 60px;
+            padding: 50px;
+        }
+
+        .nav {
+            margin-bottom: 25px;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 8px 12px;
+            background: #333;
+            border-radius: 6px;
+        }
+
+        .nav a:hover {
+            background: #555;
         }
 
         h1 {
             margin-bottom: 10px;
+        }
+
+        p {
+            color: #bbb;
         }
 
         .card {
@@ -22,8 +43,21 @@
             padding: 30px;
             border-radius: 12px;
             display: inline-block;
-            width: 300px;
+            width: 320px;
             margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        .label {
+            font-size: 14px;
+            color: #aaa;
+            margin-top: 15px;
+        }
+
+        .result {
+            font-size: 20px;
+            margin-top: 5px;
+            font-weight: bold;
         }
 
         button {
@@ -40,24 +74,19 @@
         button:hover {
             background: #45a049;
         }
-
-        .label {
-            font-size: 14px;
-            color: #aaa;
-        }
-
-        .result {
-            font-size: 20px;
-            margin-top: 10px;
-            font-weight: bold;
-        }
     </style>
 </head>
 
 <body>
 
+<!-- NAV -->
+<div class="nav">
+    <a href="index.html">← Home</a>
+    <a href="scratch.html">Scratch Page</a>
+</div>
+
 <h1>🎮 Random Vibe Picker</h1>
-<p>Click the button to get your vibe for the day</p>
+<p>Find your game, music, and car vibe instantly</p>
 
 <div class="card">
 
@@ -81,7 +110,7 @@
         "Minecraft",
         "Terraria",
         "Phasmophobia",
-        "Zelda"
+        "Legend of Zelda"
     ];
 
     const music = [
@@ -90,7 +119,8 @@
         "All Time Low",
         "Yellowcard",
         "Simple Plan",
-        "Mayday Parade"
+        "Mayday Parade",
+        "The Red Jumpsuit Apparatus"
     ];
 
     const cars = [
