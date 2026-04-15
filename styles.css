@@ -1,0 +1,17 @@
+body {
+    font-family: Arial;
+    color: black;
+}
+
+h1 {
+    color: navy;
+}
+
+div {
+    margin: 20px;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 10px;
+}
