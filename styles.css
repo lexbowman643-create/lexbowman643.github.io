@@ -1,17 +1,53 @@
 body {
-    font-family: Arial;
-    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #222;
 }
 
-h1 {
-    color: navy;
+/* HEADER */
+.header {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
 
-div {
-    margin: 20px;
-}
-
-.box {
-    border: 2px solid black;
+/* NAV */
+.nav {
+    background-color: #333;
+    text-align: center;
     padding: 10px;
+}
+
+.nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* SECTIONS */
+.section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* TEXT STYLE REQUIREMENT */
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+/* IMAGE STYLE */
+img {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* TABLEAU BLOCK */
+.tableau {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eee;
 }
