@@ -1,53 +1,77 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
-    color: #222;
+    background-color: #121417; /* dark background */
+    color: #e6e6e6;
 }
 
 /* HEADER */
 .header {
-    background-color: #111;
+    background-color: #0b1220; /* dark navy */
     color: white;
     text-align: center;
     padding: 30px;
+    border-bottom: 3px solid #3b82f6; /* blue accent line */
 }
 
 /* NAV */
 .nav {
-    background-color: #333;
+    background-color: #1f2937;
     text-align: center;
     padding: 10px;
+    border-bottom: 2px solid #3b82f6;
 }
 
 .nav a {
-    color: white;
+    color: #e6e6e6;
     margin: 10px;
     text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.nav a:hover {
+    background-color: #3b82f6;
+    color: white;
 }
 
 /* SECTIONS */
 .section {
-    background-color: white;
+    background-color: #1e1e1e; /* dark card instead of white */
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
+    border: 1px solid #2d2d2d;
 }
 
 /* TEXT STYLE REQUIREMENT */
 h1, h2 {
     font-family: 'Georgia', serif;
+    color: #60a5fa; /* light blue headers */
 }
 
 /* IMAGE STYLE */
 img {
     margin: 10px;
     border-radius: 10px;
+    border: 2px solid #3b82f6;
 }
 
 /* TABLEAU BLOCK */
 .tableau {
     margin-top: 20px;
     padding: 10px;
-    background-color: #eee;
+    background-color: #111827;
+    border-radius: 10px;
+    border: 1px solid #3b82f6;
+}
+
+/* LINKS INSIDE SECTIONS (optional polish) */
+.section a {
+    color: #60a5fa;
+}
+
+.section a:hover {
+    text-decoration: underline;
 }
